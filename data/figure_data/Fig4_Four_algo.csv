@@ -1,0 +1,81 @@
+Model,Type,Fold,EF,BA,Tune,Sampling
+MLP,Default,1,77.77777777777777,0.6666666666666666,Not Tune,Not Sampling
+MLP,Default,2,70.0,0.7978344562078922,Not Tune,Not Sampling
+MLP,Default,3,100.0,0.8747596153846153,Not Tune,Not Sampling
+MLP,Default,4,62.5,0.686779884781565,Not Tune,Not Sampling
+MLP,Default,5,75.0,0.6875,Not Tune,Not Sampling
+MLP,optuna,1,88.88888888888889,0.888647808850316,Tune,Not Sampling
+MLP,optuna,2,70.0,0.8959095283926852,Tune,Not Sampling
+MLP,optuna,3,100.0,0.5,Tune,Not Sampling
+MLP,optuna,4,62.5,0.8105796927508402,Tune,Not Sampling
+MLP,optuna,5,75.0,0.75,Tune,Not Sampling
+MLP,over,1,77.77777777777777,0.7777777777777778,Not Tune,Sampling
+MLP,over,2,70.0,0.8471126082771896,Not Tune,Sampling
+MLP,over,3,100.0,0.8747596153846153,Not Tune,Sampling
+MLP,over,4,62.5,0.6865398463754201,Not Tune,Sampling
+MLP,over,5,75.0,0.8125,Not Tune,Sampling
+MLP,optuna_over,1,100.0,0.9432390442515803,Tune,Sampling
+MLP,optuna_over,2,70.0,0.8961501443695862,Tune,Sampling
+MLP,optuna_over,3,100.0,0.9990384615384615,Tune,Sampling
+MLP,optuna_over,4,62.5,0.8081793086893903,Tune,Sampling
+MLP,optuna_over,5,62.5,0.8125,Tune,Sampling
+SVC,Default,1,100.0,0.7222222222222222,Not Tune,Not Sampling
+SVC,Default,2,70.0,0.846390760346487,Not Tune,Not Sampling
+SVC,Default,3,100.0,0.8745192307692308,Not Tune,Not Sampling
+SVC,Default,4,62.5,0.6870199231877101,Not Tune,Not Sampling
+SVC,Default,5,62.5,0.75,Not Tune,Not Sampling
+SVC,optuna,1,100.0,0.9427568841744347,Tune,Not Sampling
+SVC,optuna,2,80.0,0.8956689124157844,Tune,Not Sampling
+SVC,optuna,3,100.0,0.9778846153846155,Tune,Not Sampling
+SVC,optuna,4,62.5,0.8673187710033605,Tune,Not Sampling
+SVC,optuna,5,62.5,0.8425480769230769,Tune,Not Sampling
+SVC,over,1,100.0,0.5555555555555556,Not Tune,Sampling
+SVC,over,2,80.0,0.5990375360923965,Not Tune,Sampling
+SVC,over,3,100.0,0.75,Not Tune,Sampling
+SVC,over,4,62.5,0.6875,Not Tune,Sampling
+SVC,over,5,100.0,0.75,Not Tune,Sampling
+SVC,optuna_over,1,100.0,0.9425158041358619,Tune,Sampling
+SVC,optuna_over,2,80.0,0.8961501443695862,Tune,Sampling
+SVC,optuna_over,3,100.0,0.9372596153846153,Tune,Sampling
+SVC,optuna_over,4,62.5,0.8093795007201152,Tune,Sampling
+SVC,optuna_over,5,62.5,0.8112980769230769,Tune,Sampling
+RF,Default,1,88.88888888888889,0.5,Not Tune,Not Sampling
+RF,Default,2,30.0,0.5,Not Tune,Not Sampling
+RF,Default,3,75.0,0.5,Not Tune,Not Sampling
+RF,Default,4,75.0,0.5,Not Tune,Not Sampling
+RF,Default,5,62.5,0.5,Not Tune,Not Sampling
+RF,optuna,1,100.0,0.9896335583413693,Tune,Not Sampling
+RF,optuna,2,60.0,0.9372473532242541,Tune,Not Sampling
+RF,optuna,3,100.0,0.9983173076923078,Tune,Not Sampling
+RF,optuna,4,100.0,0.9963994239078253,Tune,Not Sampling
+RF,optuna,5,62.5,0.8120192307692308,Tune,Not Sampling
+RF,over,1,100.0,0.5,Not Tune,Sampling
+RF,over,2,60.0,0.49951876804619827,Not Tune,Sampling
+RF,over,3,100.0,0.5625,Not Tune,Sampling
+RF,over,4,62.5,0.625,Not Tune,Sampling
+RF,over,5,62.5,0.5625,Not Tune,Sampling
+RF,optuna_over,1,77.77777777777777,0.9348012429015322,Tune,Sampling
+RF,optuna_over,2,70.0,0.9571703561116458,Tune,Sampling
+RF,optuna_over,3,100.0,0.9728365384615385,Tune,Sampling
+RF,optuna_over,4,62.5,0.9531925108017283,Tune,Sampling
+RF,optuna_over,5,62.5,0.8581730769230769,Tune,Sampling
+XGB,Default,1,88.88888888888889,0.6111111111111112,Not Tune,Not Sampling
+XGB,Default,2,30.0,0.49879692011549565,Not Tune,Not Sampling
+XGB,Default,3,100.0,0.75,Not Tune,Not Sampling
+XGB,Default,4,62.5,0.624759961593855,Not Tune,Not Sampling
+XGB,Default,5,62.5,0.5625,Not Tune,Not Sampling
+XGB,optuna,1,88.88888888888889,0.7068466730954677,Tune,Not Sampling
+XGB,optuna,2,50.0,0.8327718960538979,Tune,Not Sampling
+XGB,optuna,3,100.0,0.5649038461538461,Tune,Not Sampling
+XGB,optuna,4,62.5,0.6481036965914546,Tune,Not Sampling
+XGB,optuna,5,62.5,0.5,Tune,Not Sampling
+XGB,over,1,88.88888888888889,0.6666666666666666,Not Tune,Sampling
+XGB,over,2,30.0,0.5478344562078922,Not Tune,Sampling
+XGB,over,3,100.0,0.875,Not Tune,Sampling
+XGB,over,4,50.0,0.687259961593855,Not Tune,Sampling
+XGB,over,5,75.0,0.8125,Not Tune,Sampling
+XGB,optuna_over,1,77.77777777777777,0.9742044358727098,Tune,Sampling
+XGB,optuna_over,2,50.0,0.9350818094321462,Tune,Sampling
+XGB,optuna_over,3,100.0,0.9350961538461539,Tune,Sampling
+XGB,optuna_over,4,50.0,0.7459193470955353,Tune,Sampling
+XGB,optuna_over,5,62.5,0.8105769230769231,Tune,Sampling

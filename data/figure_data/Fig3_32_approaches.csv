@@ -1,0 +1,161 @@
+ID,NEF1%,Type,Fold
+Smina/Smina,0.0,Baseline,Fold 1
+Smina/Smina,0.0,Baseline,Fold 2
+Smina/Smina,0.0,Baseline,Fold 3
+Smina/Smina,0.0,Baseline,Fold 4
+Smina/Smina,0.0,Baseline,Fold 5
+Smina/RF-score-VS,0.0,Baseline,Fold 1
+Smina/RF-score-VS,0.0,Baseline,Fold 2
+Smina/RF-score-VS,0.0,Baseline,Fold 3
+Smina/RF-score-VS,0.0,Baseline,Fold 4
+Smina/RF-score-VS,0.0,Baseline,Fold 5
+GNINA 1.3,0.0,Baseline,Fold 1
+GNINA 1.3,0.0,Baseline,Fold 2
+GNINA 1.3,0.0,Baseline,Fold 3
+GNINA 1.3,0.0,Baseline,Fold 4
+GNINA 1.3,0.0,Baseline,Fold 5
+DeepDock,0.0,SOTA DL-based models,Fold 1
+DeepDock,0.0,SOTA DL-based models,Fold 2
+DeepDock,0.0,SOTA DL-based models,Fold 3
+DeepDock,0.0,SOTA DL-based models,Fold 4
+DeepDock,0.0,SOTA DL-based models,Fold 5
+KarmaDock,11.11111111111111,SOTA DL-based models,Fold 1
+KarmaDock,0.0,SOTA DL-based models,Fold 2
+KarmaDock,0.0,SOTA DL-based models,Fold 3
+KarmaDock,25.0,SOTA DL-based models,Fold 4
+KarmaDock,0.0,SOTA DL-based models,Fold 5
+KarmaDock-ff,0.0,SOTA DL-based models,Fold 1
+KarmaDock-ff,0.0,SOTA DL-based models,Fold 2
+KarmaDock-ff,0.0,SOTA DL-based models,Fold 3
+KarmaDock-ff,25.0,SOTA DL-based models,Fold 4
+KarmaDock-ff,0.0,SOTA DL-based models,Fold 5
+KarmaDock-aligned,0.0,SOTA DL-based models,Fold 1
+KarmaDock-aligned,0.0,SOTA DL-based models,Fold 2
+KarmaDock-aligned,0.0,SOTA DL-based models,Fold 3
+KarmaDock-aligned,25.0,SOTA DL-based models,Fold 4
+KarmaDock-aligned,0.0,SOTA DL-based models,Fold 5
+Interformer (Energy),0.0,SOTA DL-based models,Fold 1
+Interformer (Energy),0.0,SOTA DL-based models,Fold 2
+Interformer (Energy),0.0,SOTA DL-based models,Fold 3
+Interformer (Energy),12.5,SOTA DL-based models,Fold 4
+Interformer (Energy),0.0,SOTA DL-based models,Fold 5
+Interformer (Pose score),11.11111111111111,SOTA DL-based models,Fold 1
+Interformer (Pose score),0.0,SOTA DL-based models,Fold 2
+Interformer (Pose score),0.0,SOTA DL-based models,Fold 3
+Interformer (Pose score),12.5,SOTA DL-based models,Fold 4
+Interformer (Pose score),0.0,SOTA DL-based models,Fold 5
+SurfDock,0.0,SOTA DL-based models,Fold 1
+SurfDock,0.0,SOTA DL-based models,Fold 2
+SurfDock,0.0,SOTA DL-based models,Fold 3
+SurfDock,0.0,SOTA DL-based models,Fold 4
+SurfDock,0.0,SOTA DL-based models,Fold 5
+Boltz-2,44.44444444444444,Co-folding models,Fold 1
+Boltz-2,60.0,Co-folding models,Fold 2
+Boltz-2,0.0,Co-folding models,Fold 3
+Boltz-2,25.0,Co-folding models,Fold 4
+Boltz-2,0.0,Co-folding models,Fold 5
+Boltz-2x,33.333333333333336,Co-folding models,Fold 1
+Boltz-2x,40.0,Co-folding models,Fold 2
+Boltz-2x,0.0,Co-folding models,Fold 3
+Boltz-2x,12.5,Co-folding models,Fold 4
+Boltz-2x,0.0,Co-folding models,Fold 5
+AF3 (ipTM),0.0,Co-folding models,Fold 1
+AF3 (ipTM),0.0,Co-folding models,Fold 2
+AF3 (ipTM),0.0,Co-folding models,Fold 3
+AF3 (ipTM),0.0,Co-folding models,Fold 4
+AF3 (ipTM),0.0,Co-folding models,Fold 5
+AF3 (pTM),0.0,Co-folding models,Fold 1
+AF3 (pTM),20.0,Co-folding models,Fold 2
+AF3 (pTM),0.0,Co-folding models,Fold 3
+AF3 (pTM),0.0,Co-folding models,Fold 4
+AF3 (pTM),12.5,Co-folding models,Fold 5
+AF3 (Ranking score),0.0,Co-folding models,Fold 1
+AF3 (Ranking score),0.0,Co-folding models,Fold 2
+AF3 (Ranking score),0.0,Co-folding models,Fold 3
+AF3 (Ranking score),0.0,Co-folding models,Fold 4
+AF3 (Ranking score),0.0,Co-folding models,Fold 5
+AF3 (min-iPAE),0.0,Co-folding models,Fold 1
+AF3 (min-iPAE),0.0,Co-folding models,Fold 2
+AF3 (min-iPAE),0.0,Co-folding models,Fold 3
+AF3 (min-iPAE),0.0,Co-folding models,Fold 4
+AF3 (min-iPAE),0.0,Co-folding models,Fold 5
+MLP-Default,77.77777777777777,CBS-specific models,Fold 1
+MLP-Default,70.0,CBS-specific models,Fold 2
+MLP-Default,100.0,CBS-specific models,Fold 3
+MLP-Default,62.5,CBS-specific models,Fold 4
+MLP-Default,75.0,CBS-specific models,Fold 5
+MLP-Tuned,88.88888888888889,CBS-specific models,Fold 1
+MLP-Tuned,70.0,CBS-specific models,Fold 2
+MLP-Tuned,100.0,CBS-specific models,Fold 3
+MLP-Tuned,62.5,CBS-specific models,Fold 4
+MLP-Tuned,75.0,CBS-specific models,Fold 5
+MLP-Oversampling,77.77777777777777,CBS-specific models,Fold 1
+MLP-Oversampling,70.0,CBS-specific models,Fold 2
+MLP-Oversampling,100.0,CBS-specific models,Fold 3
+MLP-Oversampling,62.5,CBS-specific models,Fold 4
+MLP-Oversampling,75.0,CBS-specific models,Fold 5
+MLP-Tuned & Oversampling,100.0,CBS-specific models,Fold 1
+MLP-Tuned & Oversampling,70.0,CBS-specific models,Fold 2
+MLP-Tuned & Oversampling,100.0,CBS-specific models,Fold 3
+MLP-Tuned & Oversampling,62.5,CBS-specific models,Fold 4
+MLP-Tuned & Oversampling,62.5,CBS-specific models,Fold 5
+SVM-Default,100.0,CBS-specific models,Fold 1
+SVM-Default,70.0,CBS-specific models,Fold 2
+SVM-Default,100.0,CBS-specific models,Fold 3
+SVM-Default,62.5,CBS-specific models,Fold 4
+SVM-Default,62.5,CBS-specific models,Fold 5
+SVM-Tuned,100.0,CBS-specific models,Fold 1
+SVM-Tuned,80.0,CBS-specific models,Fold 2
+SVM-Tuned,100.0,CBS-specific models,Fold 3
+SVM-Tuned,62.5,CBS-specific models,Fold 4
+SVM-Tuned,62.5,CBS-specific models,Fold 5
+SVM-Oversampling,100.0,CBS-specific models,Fold 1
+SVM-Oversampling,80.0,CBS-specific models,Fold 2
+SVM-Oversampling,100.0,CBS-specific models,Fold 3
+SVM-Oversampling,62.5,CBS-specific models,Fold 4
+SVM-Oversampling,100.0,CBS-specific models,Fold 5
+SVM-Tuned & Oversampling,100.0,CBS-specific models,Fold 1
+SVM-Tuned & Oversampling,80.0,CBS-specific models,Fold 2
+SVM-Tuned & Oversampling,100.0,CBS-specific models,Fold 3
+SVM-Tuned & Oversampling,62.5,CBS-specific models,Fold 4
+SVM-Tuned & Oversampling,62.5,CBS-specific models,Fold 5
+RF-Default,88.88888888888889,CBS-specific models,Fold 1
+RF-Default,30.0,CBS-specific models,Fold 2
+RF-Default,75.0,CBS-specific models,Fold 3
+RF-Default,75.0,CBS-specific models,Fold 4
+RF-Default,62.5,CBS-specific models,Fold 5
+RF-Tuned,100.0,CBS-specific models,Fold 1
+RF-Tuned,60.0,CBS-specific models,Fold 2
+RF-Tuned,100.0,CBS-specific models,Fold 3
+RF-Tuned,100.0,CBS-specific models,Fold 4
+RF-Tuned,62.5,CBS-specific models,Fold 5
+RF-Oversampling,100.0,CBS-specific models,Fold 1
+RF-Oversampling,60.0,CBS-specific models,Fold 2
+RF-Oversampling,100.0,CBS-specific models,Fold 3
+RF-Oversampling,62.5,CBS-specific models,Fold 4
+RF-Oversampling,62.5,CBS-specific models,Fold 5
+RF-Tuned & Oversampling,77.77777777777777,CBS-specific models,Fold 1
+RF-Tuned & Oversampling,70.0,CBS-specific models,Fold 2
+RF-Tuned & Oversampling,100.0,CBS-specific models,Fold 3
+RF-Tuned & Oversampling,62.5,CBS-specific models,Fold 4
+RF-Tuned & Oversampling,62.5,CBS-specific models,Fold 5
+XGBoost-Default,88.88888888888889,CBS-specific models,Fold 1
+XGBoost-Default,30.0,CBS-specific models,Fold 2
+XGBoost-Default,100.0,CBS-specific models,Fold 3
+XGBoost-Default,62.5,CBS-specific models,Fold 4
+XGBoost-Default,62.5,CBS-specific models,Fold 5
+XGBoost-Tuned,88.88888888888889,CBS-specific models,Fold 1
+XGBoost-Tuned,50.0,CBS-specific models,Fold 2
+XGBoost-Tuned,100.0,CBS-specific models,Fold 3
+XGBoost-Tuned,62.5,CBS-specific models,Fold 4
+XGBoost-Tuned,62.5,CBS-specific models,Fold 5
+XGBoost-Oversampling,88.88888888888889,CBS-specific models,Fold 1
+XGBoost-Oversampling,30.0,CBS-specific models,Fold 2
+XGBoost-Oversampling,100.0,CBS-specific models,Fold 3
+XGBoost-Oversampling,50.0,CBS-specific models,Fold 4
+XGBoost-Oversampling,75.0,CBS-specific models,Fold 5
+XGBoost-Tuned & Oversampling,77.77777777777777,CBS-specific models,Fold 1
+XGBoost-Tuned & Oversampling,50.0,CBS-specific models,Fold 2
+XGBoost-Tuned & Oversampling,100.0,CBS-specific models,Fold 3
+XGBoost-Tuned & Oversampling,50.0,CBS-specific models,Fold 4
+XGBoost-Tuned & Oversampling,62.5,CBS-specific models,Fold 5
