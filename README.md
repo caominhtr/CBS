@@ -72,6 +72,7 @@ python tools/infer.py -f path/to/SMILES/inputs -o path/to/output/directory
 ```
 ### Step 3: Results
 Column `{X}_{Y}_{i}_prob` contains probability predicted by model using algorithm {X} with variant {Y} (Default, tuning only, oversampling only, and both tuning and oversampling), trained on four folds except for fold {i}. 
+
 Column `{X}_{Y}_{i}_label` contains corresponing predicted labels based on optimal decision threshold.
 
 ## Contact
