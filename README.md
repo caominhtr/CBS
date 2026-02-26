@@ -33,7 +33,7 @@ Inside `models/` directory, you will find:
 - `hyperparameter`: This folder contains optimal hyperparameters and decision threshold obtained from Optuna optimization process.
 Hyperparameters can be obtained by running:
 ```
-python -c "import joblib; print(joblib.load('name_of_the_study.pkl'))"
+python -c "import joblib; study=joblib.load('name_of_the_study.pkl'); print(study.best_params)"
 ```
 Decision thresholds can be obtained by running:
 ```
