@@ -78,7 +78,7 @@ conda activate CBS
 <a id="Running"></a>
 To perform inference using our CBS-specific models, the following steps should be followed:
 ### Step 1: Input preparation
-The example of dataset in `.smi` format can be found at `data/example.smi`. Each row corresponds to a SMILES string. Inputs can also be prepared in `.csv` or `.txt` formats.
+The example of dataset in `.smi` format can be found at `data/example.smi`. Each row corresponds to a SMILES string with its ID. Inputs can also be prepared in `.csv` or `.txt` formats.
 
 ### Step 2: Running inference
 ```
