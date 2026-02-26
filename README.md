@@ -4,9 +4,21 @@ Cystathionine beta-synthase (CBS) has emerged as an important therapeutic target
 
 Our CBS-specific ML models demonstrated consistently high screening power and robust classification performance, and they substantially outperformed these state-of-the-art (SOTA) methods in early enrichment, highlighting the advantage of target-focused training for VS tasks. Our results further reveal that generic DL docking and co-folding approaches struggle to achieve reliable screening performance when applied to targets that are under-represented in or entirely absent from their training data, as appears to be the case for CBS. This underscores a key limitation of broadly trained foundation-style models in prospective drug discovery campaigns involving less-studied proteins. 
 
+## Table of Contents
+- [Workflow](#Workflow)
+- [Dataset](#Dataset)
+- [Installation](#Installation)
+- [Running CBS-specific models](#Running)
+- [Contact](#Contact)
+
+<a id="set-up"></a>
+
 ## Workflow
+<a id="Workflow"></a>
+![](CBS_pipeline.png)
 
 ## Dataset
+<a id="Dataset"></a>
 Inside `data/` directory, you will find:
 - `raw_data/Final_data.csv`: Our initial dataset with 10,445 compounds (43 true active, 195 true inactive, and 10,207 dark chemical matter (DCM) compounds) with corresponding SMILES, cluster IDs, and fold IDs
 - `raw_data/Fold_{x}.csv`: Performance of 32 VS pipelines on each fold
@@ -30,6 +42,7 @@ tail -n 1 models/hyperparameter/*/*/*.txt
 - `model`: This folder contains CBS-specific models used for inference. For example: `SVC_optuna_over_1_model.pkl` is SVC model trained using Optuna for hyperparameter tuning on oversampled training folds 2, 3, 4, and 5, and tested on fold 1.
 
 ## Installation
+<a id="Installation"></a>
 This code was tested with Python 3.12.12 on Ubuntu 24.04.3 LTS
 
 Installation of [Open Babel](https://openbabel.org/docs/ReleaseNotes/ob310.html). Our code was tested with Open Babel (v.3.1.0).
@@ -62,6 +75,7 @@ conda activate CBS
 ```
 
 ## Running our CBS-specific models
+<a id="Running"></a>
 To perform inference using our CBS-specific models, the following steps should be followed:
 ### Step 1: Input preparation
 The example of dataset in `.smi` format can be found at `data/example.smi`. Each row corresponds to a SMILES string. Inputs can also be prepared in `.csv` or `.txt` formats.
@@ -76,6 +90,7 @@ Column `{X}_{Y}_{i}_prob` contains probability predicted by model using algorith
 Column `{X}_{Y}_{i}_label` contains corresponing predicted labels based on optimal decision threshold.
 
 ## Contact
+<a id="Contact"></a>
 For further queries, please contact: 
 - Cao-Minh Truong (cao-minh.truong@etu.u-paris.fr, caominh.truong0306@gmail.com)
 - Dr. Viet-Khoa Tran-Nguyen (viet-khoa.tran-nguyen@u-paris.fr)
