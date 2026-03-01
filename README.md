@@ -1,4 +1,4 @@
-# Structure-Based Virtual Screening for Cystathionine β-Synthase Inhibitors: Target-Specific Machine-Learning Scoring Functions Outperform State-of-the-Art Deep-Learning Docking and Co-Folding Methods
+# Enhancing Virtual Screening of Cystathionine β-Synthase Inhibitors: Benchmarking Target-Specific Machine-Learning Scoring Functions Against State-of-the-Art AI Docking and Co-Folding Approaches 
 
 Cystathionine beta-synthase (CBS) has emerged as an important therapeutic target implicated in cancer and Down syndrome, yet the discovery of selective CBS inhibitors remains challenging due to limited structural diversity of known ligands and the scarcity of target-focused virtual screening (VS) benchmarks. In this study, we benchmarked the first comprehensive evaluation of CBS-specific machine-learning (ML) models against a diverse panel of 16 established VS pipelines, including classical docking-based scoring schemes, modern deep-learning (DL) docking tools, and recent co-folding approaches for protein-ligand modeling and affinity prediction. 
 
