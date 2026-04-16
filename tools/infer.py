@@ -35,8 +35,9 @@ def main():
 
     for id in df_smi['ID']:
         smina_generated = os.path.join(outdir, "smina",f"{id}_smina.sdf")
-        PLEC_list.append(PLEC_generate(smina_generated, id))
-
+        result = PLEC_generate(smina_generated, id)
+        if result is not None:
+            PLEC_list.append(result)
 
     pd.DataFrame(PLEC_list).to_csv(PLEC_path, index = False)
 
