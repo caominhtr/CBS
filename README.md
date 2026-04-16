@@ -85,7 +85,8 @@ The example of dataset in `.smi` format can be found at `data/example.smi`. Each
 
 ### Step 2: Running inference
 ```
-python tools/infer.py -f path/to/SMILES/inputs -o path/to/output/directory
+cd tools
+python infer.py -f path/to/SMILES/inputs -o path/to/output/directory
 ```
 ### Step 3: Results
 Column `{X}_{Y}_{i}_prob` contains probability predicted by model using algorithm {X} with variant {Y} (Default, tuning only, oversampling only, and both tuning and oversampling), trained on four folds except for fold {i}. 
