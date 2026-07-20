@@ -15,6 +15,7 @@ Our CBS-specific ML models demonstrated consistently high screening power and ro
 - [Dataset](#Dataset)
 - [Installation](#Installation)
 - [Running CBS-specific models](#Running)
+- [Umap-based sampling](#Umap)
 - [Contact](#Contact)
 
 <a id="set-up"></a>
@@ -97,6 +98,10 @@ python infer.py -f path/to/SMILES/inputs -o path/to/output/directory
 Column `{X}_{Y}_{i}_prob` contains probability predicted by model using algorithm {X} with variant {Y} (Default, tuning only, oversampling only, and both tuning and oversampling), trained on four folds except for fold {i}. 
 
 Column `{X}_{Y}_{i}_label` contains corresponing predicted labels based on optimal decision threshold.
+
+## Umap-based sampling
+<a id="Umap"></a>
+ The source code to implement 5-fold cross-validation sampling using UMAP-based dimensionality combined with agglomerative clustering can be found via this [repository](https://github.com/caominhtr/umap_clustering_sampling).
 
 ## Contact
 <a id="Contact"></a>
