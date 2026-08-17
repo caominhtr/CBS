@@ -1,6 +1,6 @@
 # Enhancing Virtual Screening of Cystathionine β-Synthase Inhibitors: Benchmarking Target-Specific Machine-Learning Scoring Functions Against State-of-the-Art AI Docking and Co-Folding Approaches 
 
-This repository contains the source code, curated datasets, and evaluation scripts presenting in our the study:
+This repository contains the source code, curated datasets, and evaluation scripts presenting in our study:
 > **Enhancing virtual screening of cystathionine β-synthase inhibitors: benchmarking target-specific machine-learning scoring functions against state-of-the-art AI docking and co-folding approaches**  
 > *Journal of Cheminformatics* (2026). DOI: [10.1186/s13321-026-01262-x](https://link.springer.com/article/10.1186/s13321-026-01262-x)
 
